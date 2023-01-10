@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.info--container {
+  width: 300px;
+  background: #1a1b21;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card--container {
+  /* position: absolute; */
+  width: 300px;
+  background: #1a1b21;
+  padding: 10px 20px;
+}
+
+.info--avatar {
+  /* position: absolute; */
+  width: 300px;
+  height: 300px;
+  left: 100px;
+  top: 0px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.info--name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #f5f5f5;
+  padding-top: 10px;
+}
+
+.info--contact {
+  color: #f5f5f5;
+}
+
+.info--title {
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 15px;
+  color: #f3bf99;
+}
+
+.info--web {
+  text-align: center;
+  padding: 0px 0px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn .btn--icon {
+  font-size: 15px;
+  margin-right: 5px;
+}
+
+.btn-lightgray {
+  background-color: lightgray;
+}
+
+.btn-lightblue {
+  background-color: rgb(55, 99, 219);
+}
+
+.info--buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+}
+
+.info--button {
+  width: 115px;
+  font-size: 11px;
+  padding: 9px 13px 9px 11px;
+}
+
+.info--button.info--button-email {
+  background-color: #f5f5f5;
+  color: #1a1b21;
+}
+
+.info--button .info--button-icon {
+  font-size: 15px;
+}
+
+.card--title,
+.info--web,
+.card--copy {
+  color: #f5f5f5;
+}
+
+.card--title {
+  text-align: left;
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.card--copy {
+  text-align: left;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 15px;
+  width: 300px;
+  height: 55px;
+  background-color: #161619;
+  border-radius: 1px 0px 10px 10px;
+}
+
+.footer a {
+  color: #8d8d8d;
+  display: flex;
+}
