@@ -11,7 +11,7 @@ export default function Info() {
     <div className="info--container">
       <img
         className="info--avatar"
-        src={require("./images/nature.jpg")}
+        src={require("../images/nature.jpg")}
         alt="Avatar"
       />
       <h1 className="info--name">Alex Karry</h1>
